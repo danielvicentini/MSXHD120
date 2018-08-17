@@ -1,4 +1,4 @@
-# msxhd120
+# MSX HD 120mb
 My MSX 2+ HD Disk with my Collection of games and program plus several tools from Internet.
 
 To be used wit WebMSX.
