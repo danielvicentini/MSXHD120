@@ -1,0 +1,32 @@
+Emulador MSX2++ com Web MSX
+
+CPU Clock x8, 4 MB RAM Memmory Mapper, MSX-MUSIC, HD 120 Mb e som SCC+
+
+inclui no HD:
+
+Principais Apps e Jogos da coleção.
+
+Estrutura:
+-Aplicações DOS, ferramentas para explorar e manipular arquivos - help incluso
+-Desenvolvimento (C, Pascal, ASM, Cobol80, Basic);
+-Banco de Dados;Planilha de Calculo;
+-Media (shapes, telas e músicas); Inclui pasta App de programas para visualizar imagens (jpg, gif, bmp, outros)
+-Programas diversos (pasta "diver")
+-Jogos (coleções disco 1 e 2, jogos megaram, jogos diversos, jogos de disco, jogos .com e jogos megarom .rom); inclui ferramentas de disco e SR para carregar jogos no formato rom;
+-Interface grafica SymbOS 3
+
+Rodando o webmsx:
+
+On-line:
+http://webmsx.org/?MACHINE=MSX2PP&VDP_TURBO_MODE=8&CPU_TURBO_MODE=8&PRESET=SCCI&RAMMAPPER_SIZE=4096&HARDDISK_URL=file:///C:<diretorio>/MSX_HD120.zip&SCREEN_FULLSCREEN_MODE=1
+
+Local:
+Rodar versão webmsx embedded (index.html) neste diretório
+(pré-configurações dentro do wmsx.js) - abrir com MS Visual Code para melhor editar
+
+Atualizado em 17 de agosto de 2018
+Atualizado em 12 de agosto de 2018
+Atualizado em 07 de agosto de 2018
+Atualizado em 31 de julho de 2018
+Atualizado em 24 de julho de 2018
+
