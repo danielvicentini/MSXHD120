@@ -7,4 +7,6 @@ Download this file, unpacked it with 7z.
 
 See Projeto_HD.txt for details (in portuguese)
 
+Extra: my v1 of a my basic game code written in Basic.
+
 17th aug 2018
