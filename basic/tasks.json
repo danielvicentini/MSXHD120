@@ -1,0 +1,26 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    // Esta task requer inliner (https://github.com/plainspooky/inliner/)
+    // Funcionamento: inliner converte o codigo basic aqui utilizado e salva no formato msxbasic;
+    // o comando findstr /v "^$" filtra linhas adicionais (CR/Linefeed only)
+    // parametro -start=1000 inicia na linha 1000
+    // opcionais nao utilizados:
+    // --step (intervalor de linhas)
+    // --rem (insere comentarios no codigo MSXBASIC)
+    //
+    // Daniel 31 de julho de 2017
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "convert_to_msxbasic",
+            "type": "shell",
+            "command": "python inliner ${file} --start=1000 | findstr \/v \"^$\" > ${file}_msxbasic.bas" ,
+            "problemMatcher": [],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+    ]
+}
