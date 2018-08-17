@@ -17,7 +17,7 @@ Estrutura:
 
 Detalhes do conteúdo do disco dentro do HD, arquivo MSXHD.TXT
 
-Rodando o webmsx:
+Rodando com o WebMSX:
 
 On-line:
 http://webmsx.org/?MACHINE=MSX2PP&VDP_TURBO_MODE=8&CPU_TURBO_MODE=8&PRESET=SCCI&RAMMAPPER_SIZE=4096&HARDDISK_URL=file:///C:<diretorio>/MSX_HD120.zip&SCREEN_FULLSCREEN_MODE=1
